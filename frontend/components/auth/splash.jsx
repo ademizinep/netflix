@@ -110,28 +110,28 @@ class Splash extends React.Component {
                 <section className="landing">
                     <div className="splash-main-content">
                         <div className="slogan-container">
-                            <h2 className="slogan-big">Unlimited movies, TV</h2>
-                            <h2 className="slogan-big">shows, and more.</h2>
-                            <h3 className="slogan-small">Watch anywhere. Cancel anytime.</h3>
+                            <h2 className="slogan-big">VEM PRO SHOW</h2>
+                            <h2 className="slogan-big">shows, e muito mais.</h2>
+                            <h3 className="slogan-small">Assista em qualquer lugar. Cancele a qualquer momento.</h3>
                         </div>
                         <div className="form-container">
                             <form className="signup-form" onSubmit={this.handleSubmit}>
                                 <div className="black-box">
-                                    <p className="signup-info">Ready to watch? Enter your email and password to create or restart your membership.</p>
+                                    <p className="signup-info">Pronto para assistir? Digite seu e-mail e senha para criar ou reiniciar sua assinatura.</p>
                                     <div className="signup-inputs-container">
                                         <input className={`signup-input ${emailErrors}`} type="text" placeholder="Email Address" value={this.state.email} onChange={this.updateEmail} />
                                         <input className={`signup-input ${passwordErrors}`} type="password" placeholder="Password" value={this.state.password} onChange={this.updatePassword} />
                                     </div>
                                     {errorMessages}
                                 </div>
-                                <input className="signup-button" type="submit" value="TRY 30 DAYS FREE" />
+                                <input className="signup-button" type="submit" value="TESTE 30 DIAS GRÁTIS" />
                             </form>
                         </div>
                     </div>     
                 </section>
 
                 <section className="story-container">
-                    <div className="story-card">
+                    {/* <div className="story-card">
                         <div className="story-text-container">
                             <h2 className="story-title">Enjoy on your TV.</h2>
                             <h3 className="story-subtitle">Watch on Smart TVs, Playstation, Xbox, Chromecast, Apple TV, Blu-ray players, and more.</h3>
@@ -161,9 +161,9 @@ class Splash extends React.Component {
                             <div className="story-title">Download your shows to watch offline.</div>
                             <div className="story-subtitle">Save your favorites easily and always have something to watch.</div>
                         </div>
-                    </div>
+                    </div> */}
 
-                    <div className="story-card">
+                    {/* <div className="story-card">
                         <div className="story-text-container story-last">
                             <div className="story-title">Watch everywhere.</div>
                             <div className="story-subtitle">Stream unlimited movies and TV shows on your phone, tablet, laptop, and TV without paying more.</div>
@@ -173,7 +173,7 @@ class Splash extends React.Component {
                                 <div className="story-3-img"></div>
                             </div>
                         </div>
-                    </div>
+                    </div> */}
                 </section>
                 <Footer />
             </main>

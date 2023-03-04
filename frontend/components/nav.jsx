@@ -86,9 +86,9 @@ class Nav extends React.Component {
                 <div className="nav-right">
                     <div className="nav-buttons-box">
                         <Link className="nav-link" to="/login">
-                            <div className="nav-button unselectable-text">Sign In</div>
+                            <div className="nav-button unselectable-text">Entrar</div>
                         </Link>                    
-                        <div onClick={this.handleDemo} className="nav-button unselectable-text">Demo Login</div>
+                        <div onClick={this.handleDemo} className="nav-button unselectable-text">Login de demonstração</div>
                     </div>
                 </div>
             )

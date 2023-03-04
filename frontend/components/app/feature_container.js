@@ -1,5 +1,5 @@
 import { connect } from "react-redux";
-import Feature from "./feature";
+import { Feature } from "./feature";
 import { addMovieToList, removeMovieFromList } from "../../actions/list_actions";
 
 const msp = state => ({

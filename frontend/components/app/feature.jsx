@@ -1,7 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 
-class Feature extends React.Component {
+export class Feature extends React.Component {
     constructor(props){
         super(props);
 
@@ -45,6 +45,7 @@ class Feature extends React.Component {
         if (!genres[0]) return (<div></div>);
 
         const { muted } = this.state;
+        console.log(genres)
         const featuredMovie = Object.values(genres[0][1])[0];
 
         const trailer = featuredMovie.trailer;
@@ -118,5 +119,3 @@ class Feature extends React.Component {
         )
     }
 }
-
-export default Feature;
